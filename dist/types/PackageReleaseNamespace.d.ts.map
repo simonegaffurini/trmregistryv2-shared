@@ -1,0 +1,1 @@
+{"version":3,"file":"PackageReleaseNamespace.d.ts","sourceRoot":"","sources":["../../src/types/PackageReleaseNamespace.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,uBAAuB;IACpC,SAAS,EAAE,MAAM,CAAC;IAClB,YAAY,CAAC,EAAE;QACX,KAAK,EAAE,MAAM,CAAC;QACd,WAAW,EAAE,MAAM,CAAC;QACpB,QAAQ,EAAE,MAAM,CAAA;KACnB,EAAE,CAAA;CACN"}
