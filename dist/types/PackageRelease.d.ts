@@ -1,3 +1,4 @@
+import { PackageAuthorizations } from "./PackageAuthorizations";
 import { PackageReleaseDependant } from "./PackageReleaseDependant";
 import { PackageReleaseDependency } from "./PackageReleaseDependency";
 export interface PackageRelease {
@@ -20,6 +21,7 @@ export interface PackageRelease {
     dependencies: PackageReleaseDependency[];
     dependants: PackageReleaseDependant[];
     versions: string[];
-    keywords: string[];
+    keywords?: string[];
+    authorizations: PackageAuthorizations;
 }
 //# sourceMappingURL=PackageRelease.d.ts.map
