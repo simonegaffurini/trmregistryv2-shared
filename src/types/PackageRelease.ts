@@ -19,5 +19,6 @@ export interface PackageRelease {
   git?: string,
   namespace?: string,
   dependencies: PackageReleaseDependency[],
-  dependants: PackageReleaseDependant[]
+  dependants: PackageReleaseDependant[],
+  versions: string[]
 }
