@@ -14,5 +14,6 @@ export interface PackageRelease {
     readme?: string;
     website?: string;
     git?: string;
+    namespace?: string;
 }
 //# sourceMappingURL=PackageRelease.d.ts.map

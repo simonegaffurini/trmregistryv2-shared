@@ -13,5 +13,6 @@ export interface PackageRelease {
   deprecatedNote?: string,
   readme?: string,
   website?: string,
-  git?: string
+  git?: string,
+  namespace?: string
 }
