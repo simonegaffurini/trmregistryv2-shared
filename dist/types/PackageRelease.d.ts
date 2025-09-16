@@ -18,7 +18,7 @@ export interface PackageRelease {
     readme?: string;
     website?: string;
     git?: string;
-    namespace?: string;
+    namespace: boolean;
     dependencies: PackageReleaseDependency[];
     dependants: PackageReleaseDependant[];
     versions: string[];
