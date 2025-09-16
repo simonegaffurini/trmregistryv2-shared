@@ -4,4 +4,5 @@ export * from "./types/GenericError";
 export * from "./types/LoginRefreshToken";
 export * from "./types/WhoAmI";
 export * from "./types/User";
+export * from "./types/PackageRelease";
 //# sourceMappingURL=index.d.ts.map
