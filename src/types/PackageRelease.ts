@@ -20,5 +20,6 @@ export interface PackageRelease {
   namespace?: string,
   dependencies: PackageReleaseDependency[],
   dependants: PackageReleaseDependant[],
-  versions: string[]
+  versions: string[],
+  keywords: string[]
 }

@@ -20,5 +20,6 @@ export interface PackageRelease {
     dependencies: PackageReleaseDependency[];
     dependants: PackageReleaseDependant[];
     versions: string[];
+    keywords: string[];
 }
 //# sourceMappingURL=PackageRelease.d.ts.map
