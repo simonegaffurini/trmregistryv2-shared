@@ -24,3 +24,4 @@ __exportStar(require("./types/PackageRelease"), exports);
 __exportStar(require("./types/PackageReleaseDependency"), exports);
 __exportStar(require("./types/PackageAuthorizations"), exports);
 __exportStar(require("./types/PackageMaintainer"), exports);
+__exportStar(require("./types/PackageReleaseNamespace"), exports);
