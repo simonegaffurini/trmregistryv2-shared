@@ -1,1 +1,1 @@
-{"version":3,"file":"WhoAmI.d.ts","sourceRoot":"","sources":["../../src/types/WhoAmI.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,MAAM;IACnB,QAAQ,EAAE,MAAM,CAAC;CACpB"}
+{"version":3,"file":"WhoAmI.d.ts","sourceRoot":"","sources":["../../src/types/WhoAmI.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,IAAI,EAAE,MAAM,QAAQ,CAAC;AAE9B,MAAM,WAAW,MAAO,SAAQ,IAAI;IAChC,KAAK,EAAE,MAAM,CAAC;IACd,UAAU,EAAE,OAAO,CAAC;IACpB,IAAI,CAAC,EAAE;QACH,KAAK,EAAE,IAAI,CAAC;QACZ,GAAG,EAAE,IAAI,CAAA;KACZ,CAAC;CACL"}

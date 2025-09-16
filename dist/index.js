@@ -19,3 +19,4 @@ __exportStar(require("./types/SearchSuggestion"), exports);
 __exportStar(require("./types/GenericError"), exports);
 __exportStar(require("./types/LoginRefreshToken"), exports);
 __exportStar(require("./types/WhoAmI"), exports);
+__exportStar(require("./types/User"), exports);
