@@ -7,4 +7,5 @@ export * from "./types/User";
 export * from "./types/PackageRelease";
 export * from "./types/PackageReleaseDependency";
 export * from "./types/PackageAuthorizations";
+export * from "./types/PackageMaintainer";
 //# sourceMappingURL=index.d.ts.map

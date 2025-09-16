@@ -1,4 +1,5 @@
 import { PackageAuthorizations } from "./PackageAuthorizations";
+import { PackageMaintainer } from "./PackageMaintainer";
 import { PackageReleaseDependant } from "./PackageReleaseDependant";
 import { PackageReleaseDependency } from "./PackageReleaseDependency";
 export interface PackageRelease {
@@ -11,7 +12,7 @@ export interface PackageRelease {
     downloads: number;
     private: boolean;
     verified: boolean;
-    maintainers: string[];
+    maintainers: PackageMaintainer[];
     deprecated: boolean;
     deprecatedNote?: string;
     readme?: string;
