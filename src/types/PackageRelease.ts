@@ -1,3 +1,6 @@
+import { PackageReleaseDependant } from "./PackageReleaseDependant";
+import { PackageReleaseDependency } from "./PackageReleaseDependency";
+
 export interface PackageRelease {
   organization?: string,
   name: string,
@@ -14,5 +17,7 @@ export interface PackageRelease {
   readme?: string,
   website?: string,
   git?: string,
-  namespace?: string
+  namespace?: string,
+  dependencies: PackageReleaseDependency[],
+  dependants: PackageReleaseDependant[]
 }

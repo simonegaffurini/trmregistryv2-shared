@@ -21,3 +21,4 @@ __exportStar(require("./types/LoginRefreshToken"), exports);
 __exportStar(require("./types/WhoAmI"), exports);
 __exportStar(require("./types/User"), exports);
 __exportStar(require("./types/PackageRelease"), exports);
+__exportStar(require("./types/PackageReleaseDependency"), exports);
