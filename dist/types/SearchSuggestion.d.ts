@@ -1,9 +1,10 @@
+import { PackageMaintainer } from "./PackageMaintainer";
 export interface SearchSuggestion {
     name: string;
     description?: string;
     version: string;
     downloads: number;
-    maintainers: string[];
+    maintainers: PackageMaintainer[];
     releaseDate: Date;
     private: boolean;
     verified: boolean;
