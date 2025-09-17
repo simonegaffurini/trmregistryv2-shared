@@ -1,6 +1,7 @@
 export interface PackageReleaseNamespace {
-    namespace: string,
-    descriptions?: {
+    namespace?: string,
+    repairLicense: string,
+    descriptions: {
         owner: string,
         description: string,
         language: string
