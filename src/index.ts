@@ -9,3 +9,4 @@ export * from "./types/PackageReleaseDependency";
 export * from "./types/PackageAuthorizations";
 export * from "./types/PackageMaintainer";
 export * from "./types/PackageReleaseNamespace";
+export * from "./types/PackageReleaseContent";
