@@ -5,4 +5,6 @@ export interface User {
     github?: string;
     linkedin?: string;
     sapBlog?: string;
+    bio?: string;
+    birthday?: Date;
 }
