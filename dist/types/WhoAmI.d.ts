@@ -5,5 +5,8 @@ export interface WhoAmI extends User {
     planType: 'free' | 'pro';
     planStart?: Date;
     planEnd?: Date;
+    authorizations: {
+        createOrg: boolean;
+    };
 }
 //# sourceMappingURL=WhoAmI.d.ts.map
