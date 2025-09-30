@@ -21,6 +21,7 @@ __exportStar(require("./types/GenericError"), exports);
 __exportStar(require("./types/LoginRefreshToken"), exports);
 __exportStar(require("./types/WhoAmI"), exports);
 __exportStar(require("./types/User"), exports);
+__exportStar(require("./types/Organization"), exports);
 __exportStar(require("./types/PackageRelease"), exports);
 __exportStar(require("./types/PackageReleaseDependency"), exports);
 __exportStar(require("./types/PackageAuthorizations"), exports);
