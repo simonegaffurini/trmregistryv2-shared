@@ -1,7 +1,7 @@
 export interface PackageAuthorizations {
     isMaintainer: boolean;
-    isReceivingNotifications: boolean;
-    editData: boolean;
-    editMaintainers: boolean;
+    isOwner: boolean;
+    hasNotificationsActive: boolean;
+    canEdit: boolean;
 }
 //# sourceMappingURL=PackageAuthorizations.d.ts.map
