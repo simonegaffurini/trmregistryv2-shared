@@ -7,6 +7,7 @@ export * from "./types/WhoAmI";
 export * from "./types/User";
 export * from "./types/UpdateUser";
 export * from "./types/Organization";
+export * from "./types/OrganizationOwner";
 export * from "./types/OrganizationAuthorizations";
 export * from "./types/PackageRelease";
 export * from "./types/PackageReleaseDependency";

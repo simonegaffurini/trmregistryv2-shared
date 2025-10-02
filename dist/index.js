@@ -23,6 +23,7 @@ __exportStar(require("./types/WhoAmI"), exports);
 __exportStar(require("./types/User"), exports);
 __exportStar(require("./types/UpdateUser"), exports);
 __exportStar(require("./types/Organization"), exports);
+__exportStar(require("./types/OrganizationOwner"), exports);
 __exportStar(require("./types/OrganizationAuthorizations"), exports);
 __exportStar(require("./types/PackageRelease"), exports);
 __exportStar(require("./types/PackageReleaseDependency"), exports);
