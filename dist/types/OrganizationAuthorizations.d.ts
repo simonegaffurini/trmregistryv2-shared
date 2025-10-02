@@ -1,6 +1,6 @@
 export interface OrganizationAuthorizations {
-    editData: boolean;
-    editMembers: boolean;
-    deleteOrganization: boolean;
+    isMember: boolean;
+    isOwner: boolean;
+    canDelete: boolean;
 }
 //# sourceMappingURL=OrganizationAuthorizations.d.ts.map

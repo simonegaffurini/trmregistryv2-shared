@@ -1,1 +1,1 @@
-{"version":3,"file":"OrganizationAuthorizations.d.ts","sourceRoot":"","sources":["../../src/types/OrganizationAuthorizations.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,0BAA0B;IACvC,QAAQ,EAAE,OAAO,CAAC;IAClB,WAAW,EAAE,OAAO,CAAC;IACrB,kBAAkB,EAAE,OAAO,CAAA;CAC9B"}
+{"version":3,"file":"OrganizationAuthorizations.d.ts","sourceRoot":"","sources":["../../src/types/OrganizationAuthorizations.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,0BAA0B;IACvC,QAAQ,EAAE,OAAO,CAAC;IAClB,OAAO,EAAE,OAAO,CAAC;IACjB,SAAS,EAAE,OAAO,CAAA;CACrB"}
