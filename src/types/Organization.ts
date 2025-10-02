@@ -5,6 +5,7 @@ export interface Organization {
     organization: string,
     members: string[],
     owners: OrganizationOwner[],
+    invited?: string[],
     website?: string,
     contactEmail?: string,
     authorizations: OrganizationAuthorizations
