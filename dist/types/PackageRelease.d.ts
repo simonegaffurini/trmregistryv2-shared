@@ -1,5 +1,6 @@
 import { PackageAuthorizations } from "./PackageAuthorizations";
 import { PackageMaintainer } from "./PackageMaintainer";
+import { PackageOwner } from "./PackageOwner";
 import { PackageReleaseDependant } from "./PackageReleaseDependant";
 import { PackageReleaseDependency } from "./PackageReleaseDependency";
 export interface PackageRelease {
@@ -13,6 +14,7 @@ export interface PackageRelease {
     private: boolean;
     verified: boolean;
     maintainers: PackageMaintainer[];
+    owners: PackageOwner[];
     deprecated: boolean;
     deprecatedNote?: string;
     readme?: string;
