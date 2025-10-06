@@ -1,12 +1,11 @@
 import { OrganizationAuthorizations } from "./OrganizationAuthorizations";
+import { OrganizationData } from "./OrganizationData";
 import { OrganizationOwner } from "./OrganizationOwner";
 
-export interface Organization {
+export interface Organization extends OrganizationData{
     organization: string,
     members: string[],
     owners: OrganizationOwner[],
     invited?: string[],
-    website?: string,
-    contactEmail?: string,
     authorizations: OrganizationAuthorizations
 }

@@ -22,6 +22,7 @@ __exportStar(require("./types/LoginRefreshToken"), exports);
 __exportStar(require("./types/WhoAmI"), exports);
 __exportStar(require("./types/User"), exports);
 __exportStar(require("./types/UpdateUser"), exports);
+__exportStar(require("./types/OrganizationData"), exports);
 __exportStar(require("./types/Organization"), exports);
 __exportStar(require("./types/OrganizationOwner"), exports);
 __exportStar(require("./types/OrganizationAuthorizations"), exports);
