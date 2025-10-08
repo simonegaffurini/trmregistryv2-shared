@@ -33,3 +33,4 @@ __exportStar(require("./types/PackageMaintainer"), exports);
 __exportStar(require("./types/PackageOwner"), exports);
 __exportStar(require("./types/PackageReleaseNamespace"), exports);
 __exportStar(require("./types/PackageReleaseContent"), exports);
+__exportStar(require("./types/Pat"), exports);

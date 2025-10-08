@@ -17,3 +17,4 @@ export * from "./types/PackageMaintainer";
 export * from "./types/PackageOwner";
 export * from "./types/PackageReleaseNamespace";
 export * from "./types/PackageReleaseContent";
+export * from "./types/Pat";
