@@ -1,7 +1,7 @@
 export interface Pat {
     id: string;
     jti: string;
-    name: string;
+    description: string;
     scopes: string[];
     token?: string;
     expiresAt?: Date;
