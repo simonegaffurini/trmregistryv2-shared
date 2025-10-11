@@ -1,12 +1,10 @@
 export interface Pat {
-    id: string;
-    jti: string;
-    description: string;
+    masked: string;
     scopes: string[];
+    created_at: Date;
     token?: string;
-    expiresAt?: Date;
-    revokedAt?: Date;
-    lastUsedAt?: Date;
-    lastUsedIp?: string;
+    last_used_at?: Date;
+    expires_at?: Date;
+    description?: string;
 }
 //# sourceMappingURL=Pat.d.ts.map
