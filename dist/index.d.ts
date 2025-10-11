@@ -18,4 +18,6 @@ export * from "./types/PackageOwner";
 export * from "./types/PackageReleaseNamespace";
 export * from "./types/PackageReleaseContent";
 export * from "./types/Pat";
+export * from "./types/TokenScope";
+export * from "./consts/PatScopes";
 //# sourceMappingURL=index.d.ts.map

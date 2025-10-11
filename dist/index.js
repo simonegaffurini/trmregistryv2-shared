@@ -34,3 +34,5 @@ __exportStar(require("./types/PackageOwner"), exports);
 __exportStar(require("./types/PackageReleaseNamespace"), exports);
 __exportStar(require("./types/PackageReleaseContent"), exports);
 __exportStar(require("./types/Pat"), exports);
+__exportStar(require("./types/TokenScope"), exports);
+__exportStar(require("./consts/PatScopes"), exports);
