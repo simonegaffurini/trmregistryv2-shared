@@ -27,6 +27,7 @@ __exportStar(require("./types/Organization"), exports);
 __exportStar(require("./types/OrganizationOwner"), exports);
 __exportStar(require("./types/OrganizationAuthorizations"), exports);
 __exportStar(require("./types/PackageRelease"), exports);
+__exportStar(require("./types/PackageReleaseDownload"), exports);
 __exportStar(require("./types/PackageReleaseDependency"), exports);
 __exportStar(require("./types/PackageAuthorizations"), exports);
 __exportStar(require("./types/PackageMaintainer"), exports);

@@ -1,11 +1,11 @@
 export interface Pat {
     id: string;
     scopes: string[];
-    created_at: Date;
+    createdAt: Date;
     description: string;
     masked?: string;
     token?: string;
-    last_used_at?: Date;
-    expires_at?: Date;
+    lastUsedAt?: Date;
+    expiresAt?: Date;
 }
 //# sourceMappingURL=Pat.d.ts.map
