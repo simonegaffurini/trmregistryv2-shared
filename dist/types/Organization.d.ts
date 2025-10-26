@@ -6,6 +6,9 @@ export interface Organization extends OrganizationData {
     members: string[];
     owners: OrganizationOwner[];
     invited?: string[];
+    settings?: {
+        defaultMaintainer: boolean;
+    };
     authorizations: OrganizationAuthorizations;
 }
 //# sourceMappingURL=Organization.d.ts.map
