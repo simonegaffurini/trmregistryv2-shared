@@ -8,5 +8,6 @@ export interface WhoAmI extends User {
     planEnd?: Date;
     authorizations: {
         createOrg: boolean
-    }
+    },
+    notifications: []
 }

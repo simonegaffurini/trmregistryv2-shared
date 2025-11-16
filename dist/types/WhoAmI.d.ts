@@ -8,5 +8,6 @@ export interface WhoAmI extends User {
     authorizations: {
         createOrg: boolean;
     };
+    notifications: [];
 }
 //# sourceMappingURL=WhoAmI.d.ts.map
