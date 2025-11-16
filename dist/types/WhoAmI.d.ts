@@ -1,4 +1,5 @@
 import { User } from "./User";
+import { UserNotification } from "./UserNotification";
 export interface WhoAmI extends User {
     email: string;
     newsletter: boolean;
@@ -8,6 +9,6 @@ export interface WhoAmI extends User {
     authorizations: {
         createOrg: boolean;
     };
-    notifications: [];
+    notifications: UserNotification[];
 }
 //# sourceMappingURL=WhoAmI.d.ts.map
