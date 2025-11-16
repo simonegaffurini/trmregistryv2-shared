@@ -20,5 +20,7 @@ export * from "./types/PackageReleaseNamespace";
 export * from "./types/PackageReleaseContent";
 export * from "./types/Pat";
 export * from "./types/TokenScope";
+export * from "./types/UserNotification";
+export * from "./types/NotificationOrganizationInvite";
 
 export * from "./consts/PatScopes";

@@ -36,4 +36,6 @@ __exportStar(require("./types/PackageReleaseNamespace"), exports);
 __exportStar(require("./types/PackageReleaseContent"), exports);
 __exportStar(require("./types/Pat"), exports);
 __exportStar(require("./types/TokenScope"), exports);
+__exportStar(require("./types/UserNotification"), exports);
+__exportStar(require("./types/NotificationOrganizationInvite"), exports);
 __exportStar(require("./consts/PatScopes"), exports);

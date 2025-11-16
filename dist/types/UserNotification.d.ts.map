@@ -1,0 +1,1 @@
+{"version":3,"file":"UserNotification.d.ts","sourceRoot":"","sources":["../../src/types/UserNotification.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,8BAA8B,EAAE,MAAM,kCAAkC,CAAC;AAElF,MAAM,WAAW,gBAAgB;IAC7B,IAAI,EAAE,qBAAqB,CAAC;IAC5B,KAAK,EAAE,MAAM,CAAC;IACd,QAAQ,EAAE,MAAM,CAAC;IACjB,IAAI,EAAE,8BAA8B,CAAA;CACvC"}
