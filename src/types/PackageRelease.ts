@@ -6,6 +6,7 @@ import { PackageReleaseDependency } from "./PackageReleaseDependency";
 
 export interface PackageRelease {
   organization?: string,
+  hasOrg: boolean,
   name: string,
   version: string,
   shortDescription?: string,
