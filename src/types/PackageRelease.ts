@@ -27,6 +27,7 @@ export interface PackageRelease {
   dependants: PackageReleaseDependant[],
   versions: string[],
   distTags: Record<string, string>,
+  versionDates: Record<string, string>,
   keywords?: string[],
   authorizations: PackageAuthorizations
 }
